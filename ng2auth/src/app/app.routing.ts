@@ -3,6 +3,8 @@ import { AuthGuard } from './auth-guard.service';
 
 import { PublicDealsComponent } from './public-deals.component';
 import { PrivateDealsComponent } from './private-deals.component';
+import { UploadComponent } from './upload.component.ts';
+
 
 const appRoutes: Routes = [
   {
@@ -18,7 +20,13 @@ const appRoutes: Routes = [
     path: 'special',
     component: PrivateDealsComponent,
     canActivate: [AuthGuard]
+  },
+  {
+    path: 'upload',
+    component: UploadComponent,
+    canActivate: [AuthGuard]
   }
+  
 ];
 
 export const routing = RouterModule.forRoot(appRoutes);

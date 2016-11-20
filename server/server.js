@@ -1,19 +1,46 @@
 'use strict';
-
 const express = require('express');
 const app = express();
 const jwt = require('express-jwt');
 const cors = require('cors');
 const bodyParser = require('body-parser');
+const multer = require('multer');
+const path = require('path');
+
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors());
 
+
+
 const authCheck = jwt({
-  secret: new Buffer('YOUR-AUTH0-CLIENT-SECRET', 'base64'),
-  audience: 'YOUR-AUTH0-CLIENT-ID'
+  secret: new Buffer('0u33qUTwmPD-MFf56yqJ2DeHuQncgEeR790T3Ke1TX3R5R5sylVfUNlHWyqQS4Al', 'base64'),
+  audience: 'PBNaD26w0HdAinA5QFSyABjWZNrZSx9M'
 });
+
+const upload = multer({
+  dest: 'uploads/',
+  storage: multer.diskStorage({
+    filename: (req, file, cb) => {
+      let ext = path.extname(file.originalname);
+      cb(null, `${Math.random().toString(36).substring(7)}${ext}`);
+    }
+  })
+});
+
+app.post('/upload', upload.any(), (req, res) => {
+  res.json(req.files.map(file => {
+    let ext = path.extname(file.originalname);
+    return {
+      originalName: file.originalname,
+      filename: file.filename
+    }
+  }));
+});
+
+
+
 
 app.get('/api/deals/public', (req, res)=>{
   let deals = [
@@ -111,5 +138,18 @@ app.get('/api/deals/private', authCheck, (req,res)=>{
   res.json(deals);
 })
 
+/*
 app.listen(3001);
 console.log('Listening on localhost:3001');
+
+*/
+
+
+
+
+
+
+
+app.listen(10050, () => {
+  console.log('ng2-uploader server running on port 10050.');
+});

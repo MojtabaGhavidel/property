@@ -4,6 +4,7 @@ import { AuthGuard } from './auth-guard.service';
 import { PublicDealsComponent } from './public-deals.component';
 import { PrivateDealsComponent } from './private-deals.component';
 import { UploadComponent } from './upload.component.ts';
+import { ListComponent } from "./list.component";
 
 
 const appRoutes: Routes = [
@@ -24,6 +25,11 @@ const appRoutes: Routes = [
   {
     path: 'upload',
     component: UploadComponent,
+    canActivate: [AuthGuard]
+  },
+  {
+    path: 'list',
+    component: ListComponent,
     canActivate: [AuthGuard]
   }
   

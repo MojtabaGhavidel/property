@@ -13,6 +13,7 @@ import { DealService } from './deal.service';
 import { AuthService } from './auth.service';
 import { AuthGuard } from './auth-guard.service';
 import { UploadComponent } from './upload.component.ts';
+import { ListComponent } from './list.component'
 
 
 
@@ -28,7 +29,8 @@ import { UploadComponent } from './upload.component.ts';
   declarations: [
     AppComponent,
     routedComponents,
-    UploadComponent
+    UploadComponent,
+    ListComponent
   ],
   providers: [
     DealService,

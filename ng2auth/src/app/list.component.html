@@ -1,0 +1,20 @@
+<h1>Mouse Events</h1>
+<div class="box" (mouseenter)="onEvent($event)"
+     (mouseleave)="onEvent($event)"
+     (mousemove)="coordinates($event)"
+     on-click="onEvent($event)"
+     on-dblclick="onEvent($event)"
+     on-contextmenu="onEvent($event)">
+  <p class="type">Type: {{event?.type}}</p>
+</div>
+
+
+<ul>
+  <li *ngFor="let info of information">
+    <pre>{{ info.description }}</pre>
+  </li>
+</ul>
+
+<input #newInfo (keyup.enter)="addInfo(newInfo.value)" (blur)="addInfo(newInfo.value); newInfo.value='' ">
+
+<button (click)="addInfo(newInfo.value)">Add</button>

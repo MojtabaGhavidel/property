@@ -138,18 +138,20 @@ app.get('/api/deals/private', authCheck, (req,res)=>{
   res.json(deals);
 })
 
-/*
+
 app.listen(3001);
 console.log('Listening on localhost:3001');
 
-*/
 
 
 
 
 
 
+/*
 
 app.listen(10050, () => {
   console.log('ng2-uploader server running on port 10050.');
 });
+
+*/

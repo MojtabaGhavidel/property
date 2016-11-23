@@ -16,6 +16,9 @@ import { AuthService } from './auth.service';
           <li>
             <a routerLink="/upload" *ngIf="authService.loggedIn()" routerLinkActive="active">Upload</a>
           </li>
+          <li>
+            <a routerLink="/list" *ngIf="authService.loggedIn()" routerLinkActive="active">List</a>
+          </li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <li>
@@ -30,7 +33,6 @@ import { AuthService } from './auth.service';
       <router-outlet></router-outlet>
     </div>
   </div>
-  <upload-component></upload-component>
   `,
   styles : ['.navbar-right { margin-right: 0px !important}']
 })

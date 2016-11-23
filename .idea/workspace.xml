@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97e9461f-9f03-430d-90d3-b3e38e930e59" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ng2auth/package.json" afterPath="$PROJECT_DIR$/ng2auth/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ng2auth/src/app/app.component.ts" afterPath="$PROJECT_DIR$/ng2auth/src/app/app.component.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ng2auth/src/app/app.module.ts" afterPath="$PROJECT_DIR$/ng2auth/src/app/app.module.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ng2auth/src/app/app.routing.ts" afterPath="$PROJECT_DIR$/ng2auth/src/app/app.routing.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ng2auth/src/app/auth.service.ts" afterPath="$PROJECT_DIR$/ng2auth/src/app/auth.service.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/package.json" afterPath="$PROJECT_DIR$/server/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/server.js" afterPath="$PROJECT_DIR$/server/server.js" />
     </list>
     <ignored path="angular-2-authentication-tutorial.iws" />
@@ -33,8 +30,8 @@
       <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ng2auth/src/app/app.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-74">
-              <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+            <state relative-caret-position="34">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -45,62 +42,41 @@
       <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ng2auth/src/app/app.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-228">
-              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+            <state relative-caret-position="340">
+              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
-                <marker date="1479615053286" expanded="true" signature="168:1013" placeholder="..." />
-                <marker date="1479615053286" expanded="true" signature="208:927" placeholder="..." />
-                <marker date="1479615053286" expanded="true" signature="244:331" placeholder="..." />
-                <marker date="1479615053286" expanded="true" signature="367:618" placeholder="..." />
-                <marker date="1479615053286" expanded="true" signature="382:469" placeholder="..." />
-                <marker date="1479615053286" expanded="true" signature="484:604" placeholder="..." />
-                <marker date="1479615053286" expanded="true" signature="667:916" placeholder="..." />
-                <marker date="1479615053286" expanded="true" signature="682:784" placeholder="..." />
-                <marker date="1479615053286" expanded="true" signature="799:902" placeholder="..." />
-                <marker date="1479615053286" expanded="true" signature="955:1004" placeholder="..." />
+                <marker date="1479807266631" expanded="true" signature="168:1144" placeholder="..." />
+                <marker date="1479807266631" expanded="true" signature="208:1058" placeholder="..." />
+                <marker date="1479807266631" expanded="true" signature="244:331" placeholder="..." />
+                <marker date="1479807266631" expanded="true" signature="367:749" placeholder="..." />
+                <marker date="1479807266631" expanded="true" signature="382:469" placeholder="..." />
+                <marker date="1479807266631" expanded="true" signature="484:604" placeholder="..." />
+                <marker date="1479807266631" expanded="true" signature="619:735" placeholder="..." />
+                <marker date="1479807266631" expanded="true" signature="798:1047" placeholder="..." />
+                <marker date="1479807266631" expanded="true" signature="813:915" placeholder="..." />
+                <marker date="1479807266631" expanded="true" signature="930:1033" placeholder="..." />
+                <marker date="1479807266631" expanded="true" signature="1086:1135" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.routing.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ng2auth/src/app/app.routing.ts">
+      <file leaf-file-name="list.component.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ng2auth/src/app/list.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#68#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="uploadcomponent.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ng2auth/src/app/uploadcomponent.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+            <state relative-caret-position="765">
+              <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="upload.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ng2auth/src/app/upload.component.ts">
+      <file leaf-file-name="list.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ng2auth/src/app/list.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/server/server.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2448">
-              <caret line="144" column="2" selection-start-line="144" selection-start-column="2" selection-end-line="144" selection-end-column="2" />
+            <state relative-caret-position="323">
+              <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -125,13 +101,19 @@
         <option value="$PROJECT_DIR$/ng2auth/src/app/auth.service.ts" />
         <option value="$PROJECT_DIR$/ng2auth/src/app/app.uploadcomponent.html" />
         <option value="$PROJECT_DIR$/ng2auth/src/app/app.upload.component.ts" />
-        <option value="$PROJECT_DIR$/ng2auth/src/app/app.routing.ts" />
         <option value="$PROJECT_DIR$/ng2auth/package.json" />
         <option value="$PROJECT_DIR$/ng2auth/src/app/uploadcomponent.html" />
-        <option value="$PROJECT_DIR$/ng2auth/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/ng2auth/src/app/app.component.ts" />
-        <option value="$PROJECT_DIR$/server/server.js" />
         <option value="$PROJECT_DIR$/ng2auth/src/app/upload.component.ts" />
+        <option value="$PROJECT_DIR$/ng2auth/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/server/server.js" />
+        <option value="$PROJECT_DIR$/ng2auth/src/app/mouse.component.ts" />
+        <option value="$PROJECT_DIR$/ng2auth/src/app/heroes.component.html" />
+        <option value="$PROJECT_DIR$/ng2auth/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/ng2auth/src/app/private-deals.component.ts" />
+        <option value="$PROJECT_DIR$/ng2auth/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/ng2auth/src/app/app.routing.ts" />
+        <option value="$PROJECT_DIR$/ng2auth/src/app/list.component.html" />
+        <option value="$PROJECT_DIR$/ng2auth/src/app/list.component.ts" />
       </list>
     </option>
   </component>
@@ -171,32 +153,31 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="angular-2-authentication-tutorial" />
+              <option name="myItemId" value="angular2-demo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="angular-2-authentication-tutorial" />
+              <option name="myItemId" value="angular2-demo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="angular-2-authentication-tutorial" />
+              <option name="myItemId" value="angular2-demo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="angular-2-authentication-tutorial" />
+              <option name="myItemId" value="angular2-demo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="angular-2-authentication-tutorial" />
+              <option name="myItemId" value="angular2-demo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -206,11 +187,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="angular-2-authentication-tutorial" />
+              <option name="myItemId" value="angular2-demo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="angular-2-authentication-tutorial" />
+              <option name="myItemId" value="angular2-demo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -220,11 +201,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="angular-2-authentication-tutorial" />
+              <option name="myItemId" value="angular2-demo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="angular-2-authentication-tutorial" />
+              <option name="myItemId" value="angular2-demo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -236,18 +217,45 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular2-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular2-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ng2auth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Angular2/the-complete-guide-to-angular-2/the-complete-guide-to-angular-2/02 Components Templates  Databinding/attached_files/030 Template Access with Local References ViewChild and ContentChild/Components-Databinding-RC5/Components-Databinding" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="typescript-compiler-editor-notification" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -320,20 +328,23 @@
       <workItem from="1479594563126" duration="3826000" />
       <workItem from="1479612204171" duration="2976000" />
       <workItem from="1479617779026" duration="2773000" />
+      <workItem from="1479655658683" duration="1522000" />
+      <workItem from="1479768254998" duration="592000" />
+      <workItem from="1479797989085" duration="8642000" />
+      <workItem from="1479893400816" duration="1185000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9575000" />
+    <option name="totallyTimeSpent" value="21516000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21300448" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22869955" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2756933" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -345,6 +356,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17973857" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -360,14 +372,16 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ng2auth/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        <state relative-caret-position="34">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -376,21 +390,66 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ng2auth/src/app/app.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="340">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
-            <marker date="1479615053286" expanded="true" signature="168:1013" placeholder="..." />
-            <marker date="1479615053286" expanded="true" signature="208:927" placeholder="..." />
-            <marker date="1479615053286" expanded="true" signature="244:331" placeholder="..." />
-            <marker date="1479615053286" expanded="true" signature="367:618" placeholder="..." />
-            <marker date="1479615053286" expanded="true" signature="382:469" placeholder="..." />
-            <marker date="1479615053286" expanded="true" signature="484:604" placeholder="..." />
-            <marker date="1479615053286" expanded="true" signature="667:916" placeholder="..." />
-            <marker date="1479615053286" expanded="true" signature="682:784" placeholder="..." />
-            <marker date="1479615053286" expanded="true" signature="799:902" placeholder="..." />
-            <marker date="1479615053286" expanded="true" signature="955:1004" placeholder="..." />
+            <marker date="1479807266631" expanded="true" signature="168:1144" placeholder="..." />
+            <marker date="1479807266631" expanded="true" signature="208:1058" placeholder="..." />
+            <marker date="1479807266631" expanded="true" signature="244:331" placeholder="..." />
+            <marker date="1479807266631" expanded="true" signature="367:749" placeholder="..." />
+            <marker date="1479807266631" expanded="true" signature="382:469" placeholder="..." />
+            <marker date="1479807266631" expanded="true" signature="484:604" placeholder="..." />
+            <marker date="1479807266631" expanded="true" signature="619:735" placeholder="..." />
+            <marker date="1479807266631" expanded="true" signature="798:1047" placeholder="..." />
+            <marker date="1479807266631" expanded="true" signature="813:915" placeholder="..." />
+            <marker date="1479807266631" expanded="true" signature="930:1033" placeholder="..." />
+            <marker date="1479807266631" expanded="true" signature="1086:1135" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ng2auth/src/app/list.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ng2auth/src/app/list.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ng2auth/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ng2auth/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -398,35 +457,43 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#68#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ng2auth/src/app/upload.component.ts">
+    <entry file="file://$PROJECT_DIR$/server/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ng2auth/src/app/uploadcomponent.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ng2auth/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ng2auth/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ng2auth/src/app/app.routing.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ng2auth/src/app/upload.component.ts" />
+    <entry file="file://$PROJECT_DIR$/ng2auth/src/app/uploadcomponent.html" />
+    <entry file="file://$PROJECT_DIR$/ng2auth/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -434,19 +501,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-            <marker date="1479615053286" expanded="true" signature="168:1013" placeholder="..." />
-            <marker date="1479615053286" expanded="true" signature="208:927" placeholder="..." />
-            <marker date="1479615053286" expanded="true" signature="244:331" placeholder="..." />
-            <marker date="1479615053286" expanded="true" signature="367:618" placeholder="..." />
-            <marker date="1479615053286" expanded="true" signature="382:469" placeholder="..." />
-            <marker date="1479615053286" expanded="true" signature="484:604" placeholder="..." />
-            <marker date="1479615053286" expanded="true" signature="667:916" placeholder="..." />
-            <marker date="1479615053286" expanded="true" signature="682:784" placeholder="..." />
-            <marker date="1479615053286" expanded="true" signature="799:902" placeholder="..." />
-            <marker date="1479615053286" expanded="true" signature="955:1004" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -454,49 +508,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#68#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ng2auth/src/app/upload.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ng2auth/src/app/uploadcomponent.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="10" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ng2auth/src/app/auth-guard.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ng2auth/src/app/private-deals.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ng2auth/src/app/deal.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ng2auth/src/app/upload.component.ts" />
+    <entry file="file://$PROJECT_DIR$/ng2auth/src/app/uploadcomponent.html" />
+    <entry file="file://$PROJECT_DIR$/ng2auth/src/app/auth-guard.service.ts" />
+    <entry file="file://$PROJECT_DIR$/ng2auth/src/app/private-deals.component.html" />
+    <entry file="file://$PROJECT_DIR$/ng2auth/src/app/deal.ts" />
     <entry file="file://$PROJECT_DIR$/ng2auth/src/app/auth.service.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -508,7 +527,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -530,38 +548,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ng2auth/src/app/private-deals.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ng2auth/src/app/auth-guard.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ng2auth/src/app/private-deals.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ng2auth/src/app/deal.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ng2auth/src/app/auth-guard.service.ts" />
+    <entry file="file://$PROJECT_DIR$/ng2auth/src/app/deal.ts" />
     <entry file="file://$PROJECT_DIR$/ng2auth/src/app/auth.service.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -569,14 +560,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ng2auth/src/app/upload.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ng2auth/src/app/upload.component.ts" />
     <entry file="file://$PROJECT_DIR$/ng2auth/src/app/upload.component.html" />
     <entry file="file://$PROJECT_DIR$/ng2auth/package.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -585,66 +569,116 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ng2auth/src/app/app.routing.ts">
+    <entry file="file://$PROJECT_DIR$/ng2auth/src/app/app.component.html" />
+    <entry file="file://$PROJECT_DIR$/ng2auth/src/app/private-deals.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#68#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="323">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ng2auth/src/app/app.component.ts">
+    <entry file="file://$PROJECT_DIR$/ng2auth/src/app/uploadcomponent.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-228">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-            <marker date="1479615053286" expanded="true" signature="168:1013" placeholder="..." />
-            <marker date="1479615053286" expanded="true" signature="208:927" placeholder="..." />
-            <marker date="1479615053286" expanded="true" signature="244:331" placeholder="..." />
-            <marker date="1479615053286" expanded="true" signature="367:618" placeholder="..." />
-            <marker date="1479615053286" expanded="true" signature="382:469" placeholder="..." />
-            <marker date="1479615053286" expanded="true" signature="484:604" placeholder="..." />
-            <marker date="1479615053286" expanded="true" signature="667:916" placeholder="..." />
-            <marker date="1479615053286" expanded="true" signature="682:784" placeholder="..." />
-            <marker date="1479615053286" expanded="true" signature="799:902" placeholder="..." />
-            <marker date="1479615053286" expanded="true" signature="955:1004" placeholder="..." />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ng2auth/src/app/public-deals.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ng2auth/src/app/upload.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="3" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ng2auth/src/app/mouse.component.ts" />
+    <entry file="file://$USER_HOME$/Desktop/Angular2/the-complete-guide-to-angular-2/the-complete-guide-to-angular-2/02 Components Templates  Databinding/attached_files/030 Template Access with Local References ViewChild and ContentChild/Components-Databinding-RC5/Components-Databinding/src/app/databinding/databinding.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="58" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Angular2/the-complete-guide-to-angular-2/the-complete-guide-to-angular-2/02 Components Templates  Databinding/attached_files/030 Template Access with Local References ViewChild and ContentChild/Code-Finished/Finished/src/app/databinding/event-binding.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ng2auth/src/app/heroes.component.html" />
+    <entry file="file://$PROJECT_DIR$/server/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="144" column="0" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ng2auth/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-74">
-          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        <state relative-caret-position="34">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ng2auth/src/app/uploadcomponent.html">
+    <entry file="file://$PROJECT_DIR$/ng2auth/src/app/app.routing.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        <state relative-caret-position="102">
+          <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ng2auth/src/app/upload.component.ts">
+    <entry file="file://$PROJECT_DIR$/ng2auth/src/app/private-deals.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        <state relative-caret-position="51">
+          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ng2auth/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+            <marker date="1479807266631" expanded="true" signature="168:1144" placeholder="..." />
+            <marker date="1479807266631" expanded="true" signature="208:1058" placeholder="..." />
+            <marker date="1479807266631" expanded="true" signature="244:331" placeholder="..." />
+            <marker date="1479807266631" expanded="true" signature="367:749" placeholder="..." />
+            <marker date="1479807266631" expanded="true" signature="382:469" placeholder="..." />
+            <marker date="1479807266631" expanded="true" signature="484:604" placeholder="..." />
+            <marker date="1479807266631" expanded="true" signature="619:735" placeholder="..." />
+            <marker date="1479807266631" expanded="true" signature="798:1047" placeholder="..." />
+            <marker date="1479807266631" expanded="true" signature="813:915" placeholder="..." />
+            <marker date="1479807266631" expanded="true" signature="930:1033" placeholder="..." />
+            <marker date="1479807266631" expanded="true" signature="1086:1135" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ng2auth/src/app/list.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/server.js">
+    <entry file="file://$PROJECT_DIR$/ng2auth/src/app/list.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2448">
-          <caret line="144" column="2" selection-start-line="144" selection-start-column="2" selection-end-line="144" selection-end-column="2" />
+        <state relative-caret-position="765">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding />
         </state>
       </provider>

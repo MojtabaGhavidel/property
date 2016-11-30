@@ -19,6 +19,9 @@ import { AuthService } from './auth.service';
           <li>
             <a routerLink="/list" *ngIf="authService.loggedIn()" routerLinkActive="active">List</a>
           </li>
+          <li>
+            <a routerLink="/http" *ngIf="authService.loggedIn()" routerLinkActive="active">Http</a>
+          </li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <li>
@@ -31,6 +34,7 @@ import { AuthService } from './auth.service';
     </nav>
     <div class="col-sm-12">
       <router-outlet></router-outlet>
+     
     </div>
   </div>
   `,

@@ -13,7 +13,9 @@ import { DealService } from './deal.service';
 import { AuthService } from './auth.service';
 import { AuthGuard } from './auth-guard.service';
 import { UploadComponent } from './upload.component.ts';
-import { ListComponent } from './list.component'
+import { ListComponent } from './list.component';
+import { SimpleHTTPComponent } from './components/SimpleHTTPComponent';
+
 
 
 
@@ -30,7 +32,8 @@ import { ListComponent } from './list.component'
     AppComponent,
     routedComponents,
     UploadComponent,
-    ListComponent
+    ListComponent,
+    SimpleHTTPComponent
   ],
   providers: [
     DealService,

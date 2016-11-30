@@ -15,8 +15,8 @@ import { AuthGuard } from './auth-guard.service';
 import { UploadComponent } from './upload.component.ts';
 import { ListComponent } from './list.component';
 import { SimpleHTTPComponent } from './components/SimpleHTTPComponent';
-
-
+import { HttpService } from "./http.service";
+import { HTTPComponent } from "./http.component";
 
 
 @NgModule({
@@ -33,13 +33,15 @@ import { SimpleHTTPComponent } from './components/SimpleHTTPComponent';
     routedComponents,
     UploadComponent,
     ListComponent,
-    SimpleHTTPComponent
+    SimpleHTTPComponent,
+    HTTPComponent
   ],
   providers: [
     DealService,
     AUTH_PROVIDERS,
     AuthService,
-    AuthGuard
+    AuthGuard,
+    HttpService
   ],
   bootstrap: [AppComponent]
 })

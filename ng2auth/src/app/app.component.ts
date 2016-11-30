@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { AuthService } from './auth.service';
 
+
 @Component({
   selector: 'daily-deals',
   template: `
@@ -34,15 +35,15 @@ import { AuthService } from './auth.service';
     </nav>
     <div class="col-sm-12">
       <router-outlet></router-outlet>
-     
     </div>
   </div>
+  
   `,
   styles : ['.navbar-right { margin-right: 0px !important}']
 })
 export class AppComponent {
+  constructor(private authService: AuthService) {}
 
   title = 'Daily Deals';
 
-  constructor(private authService: AuthService) {}
 }

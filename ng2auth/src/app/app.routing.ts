@@ -5,7 +5,7 @@ import { PublicDealsComponent } from './public-deals.component';
 import { PrivateDealsComponent } from './private-deals.component';
 import { UploadComponent } from './upload.component.ts';
 import { ListComponent } from "./list.component";
-import {SimpleHTTPComponent} from "./components/SimpleHTTPComponent";
+import {HTTPComponent} from "./http.component";
 
 
 
@@ -36,7 +36,7 @@ const appRoutes: Routes = [
   },
   {
     path: 'http',
-    component: SimpleHTTPComponent,
+    component: HTTPComponent,
     canActivate: [AuthGuard]
   }
   

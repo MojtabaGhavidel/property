@@ -23,6 +23,9 @@ import { AuthService } from './auth.service';
           <li>
             <a routerLink="/http" *ngIf="authService.loggedIn()" routerLinkActive="active">Http</a>
           </li>
+           <li>
+            <a routerLink="/submit-property" *ngIf="authService.loggedIn()" routerLinkActive="active">Submit Property</a>
+          </li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <li>

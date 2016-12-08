@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+<div class="col-md-6 col-md-offset-3">
+  <h2>ثبت آگهی ملک</h2>
+  <form name="form" (ngSubmit)="f.form.valid && register()" #f="ngForm" novalidate>
+    <div class="form-group" [ngClass]="{ 'has-error': f.submitted && !username.valid }">
+      <label>نوع ملک</label>
+      <ng-select [allowClear]="false"
+                 [items]="melktype"
+                 [disabled]="disabled"
+                 (data)="refreshValue($event)"
+                 (selected)="selected($event)"
+                 (removed)="removed($event)"
+                 (typed)="typed($event)"
+                 placeholder="نوع ملک را انتخاب کنید">
+      </ng-select>
+      <div *ngIf="f.submitted && !firstName.valid" class="help-block">First Name is required</div>
+    </div>
+    <div class="form-group">
+      <label>شهر</label>
+      <ng-select [allowClear]="false"
+                 [items]="cities"
+                 [disabled]="disabled"
+                 (data)="refreshValue($event)"
+                 (selected)="selected($event)"
+                 (removed)="removed($event)"
+                 (typed)="typed($event)"
+                 placeholder="شهر آگهی را انتخاب کنید">
+      </ng-select>
+    </div>
+    <div class="form-group">
+      <label>کاربری</label>
+      <ng-select [allowClear]="false"
+                 [items]="karbary"
+                 [disabled]="disabled"
+                 (data)="refreshValue($event)"
+                 (selected)="selected($event)"
+                 (removed)="removed($event)"
+                 (typed)="typed($event)"
+                 placeholder="تجاری/مسکونی">
+      </ng-select>
+    </div>
+    <div class="form-group">
+      <label>سند ملک</label>
+      <ng-select [allowClear]="false"
+                 [items]="sanadtype"
+                 [disabled]="disabled"
+                 (data)="refreshValue($event)"
+                 (selected)="selected($event)"
+                 (removed)="removed($event)"
+                 (typed)="typed($event)"
+                 placeholder="شهری/روستایی">
+      </ng-select>
+    </div>
+    <div>
+      <label>عنوان آگهی</label>
+      <textarea autosize class="my-textarea"></textarea>
+    </div>
+    <div class="form-group">
+      <label>ایمیل</label>
+      <input type="text" class="form-control"  />
+      <div *ngIf="f.submitted && !lastName.valid" class="help-block">Last Name is required</div>
+    </div>
+    <div class="form-group" [ngClass]="{ 'has-error': f.submitted && !username.valid }">
+      <label>شماره موبایل</label>
+      <input type="text" class="form-control" name="username"  />
+      <div *ngIf="f.submitted && !username.valid" class="help-block">Username is required</div>
+    </div>
+    <div>
+      <upload-component></upload-component>
+    </div>
+    <div class="form-group" [ngClass]="{ 'has-error': f.submitted && !username.valid }">
+      <label>توضیحات تکمیلی</label>
+      <input type="text" class="form-control" name="username"  />
+      <div *ngIf="f.submitted && !username.valid" class="help-block">Username is required</div>
+    </div>
+    <div>
+      <label>قوانین را مطاله کرده ام و قبول دارم </label>
+      <input type="checkbox" aria-label="...">
+    </div>
+    <div class="form-group">
+      <button [disabled]="loading" class="btn btn-primary">ثبت آگهی</button>
+      <img *ngIf="loading" src="data:image/gif;base64,R0lGODlhEAAQAPIAAP///wAAAMLCwkJCQgAAAGJiYoKCgpKSkiH/C05FVFNDQVBFMi4wAwEAAAAh/hpDcmVhdGVkIHdpdGggYWpheGxvYWQuaW5mbwAh+QQJCgAAACwAAAAAEAAQAAADMwi63P4wyklrE2MIOggZnAdOmGYJRbExwroUmcG2LmDEwnHQLVsYOd2mBzkYDAdKa+dIAAAh+QQJCgAAACwAAAAAEAAQAAADNAi63P5OjCEgG4QMu7DmikRxQlFUYDEZIGBMRVsaqHwctXXf7WEYB4Ag1xjihkMZsiUkKhIAIfkECQoAAAAsAAAAABAAEAAAAzYIujIjK8pByJDMlFYvBoVjHA70GU7xSUJhmKtwHPAKzLO9HMaoKwJZ7Rf8AYPDDzKpZBqfvwQAIfkECQoAAAAsAAAAABAAEAAAAzMIumIlK8oyhpHsnFZfhYumCYUhDAQxRIdhHBGqRoKw0R8DYlJd8z0fMDgsGo/IpHI5TAAAIfkECQoAAAAsAAAAABAAEAAAAzIIunInK0rnZBTwGPNMgQwmdsNgXGJUlIWEuR5oWUIpz8pAEAMe6TwfwyYsGo/IpFKSAAAh+QQJCgAAACwAAAAAEAAQAAADMwi6IMKQORfjdOe82p4wGccc4CEuQradylesojEMBgsUc2G7sDX3lQGBMLAJibufbSlKAAAh+QQJCgAAACwAAAAAEAAQAAADMgi63P7wCRHZnFVdmgHu2nFwlWCI3WGc3TSWhUFGxTAUkGCbtgENBMJAEJsxgMLWzpEAACH5BAkKAAAALAAAAAAQABAAAAMyCLrc/jDKSatlQtScKdceCAjDII7HcQ4EMTCpyrCuUBjCYRgHVtqlAiB1YhiCnlsRkAAAOwAAAAAAAAAAAA==" />
+    </div>
+  </form>
+</div>
+</body>
+</html>
